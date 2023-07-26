@@ -181,3 +181,13 @@
 .home_user_info img{
   width: 100%;
 }
+/* bbb */
+
+.bbb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #663399;
+  padding: 40px 20px;
+
+}

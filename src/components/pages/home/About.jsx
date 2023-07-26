@@ -277,7 +277,24 @@ export default function About() {
         </Row>
       </Container>
 
-      
+      <div className="mt-4">
+        <Container>
+          <Row  className="mx-auto">
+            <Col lg={10} className="bbb">
+            <div className="dc mx-auto">
+              <h3>GET A FREE CONSULTATION FROM EXPERTS</h3>
+              <p>Professional service for your software solutions</p>
+            </div>
+            <div className="ddc">
+              <button className="btn_1">Get Status</button>
+              <button className="btn_2">Call Us</button>
+            </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+
       </section>
       
 
