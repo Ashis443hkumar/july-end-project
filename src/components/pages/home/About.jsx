@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row,Col, Button } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
+import Heading from "../../common/Heading";
+import "./style.css"
 
 export default function About() {
   return (
@@ -47,19 +49,60 @@ export default function About() {
         </Row>
       </Container>
     </div>
+
     <section>
     <Container>
+      {/* <Heading totitle="" title="" subtitle=""  /> */}
+      <Heading totitle="PROCESS" title="Our Working Process" subtitle="As a website-building firm, we are constantly attempting to innovate and experiment with new layouts. Modernization is something we like. We can design an excellent website for you that is creative, appealing, informational, and efficient."  />
         <Row className="text-center py-0">
           <Col lg={12}>
-            <h4>PROCESS</h4>
-            <h1>Our Working Process</h1>
-            <p>As a website-building firm, we are constantly attempting to innovate and experiment with new layouts. Modernization is something we like. We can design an excellent website for you that is creative, appealing, informational, and efficient.</p>
+         
             <img src="https://abym.in/assets/img/post/working-process.svg" className="w-100" alt="" />
           </Col>
         </Row>
       </Container>
 
     </section>
+
+    <section>
+      <Container>
+      <Heading totitle="PARTNERS" title="Leverage our in-depth platform expertise and technology partnership" subtitle=""  />
+        <Row>
+        <Col lg={6}>
+          <div className="home_partner">
+            <div className="box_logo">
+              <img src="https://abym.in/assets/img/icon/partner-icon2.svg" alt=""/>
+            </div>
+            <p>Benefit from our extensive platform expertise and valuable technology partnership with Microsoft. Our in-depth knowledge and collaboration with Microsoft allow us to deliver exceptional solutions tailored to your needs. Whether leveraging their cutting-edge technologies or accessing their resources, our partnership ensures that you receive the highest level of innovation and support.</p>
+          </div>
+        </Col>
+        <Col lg={6}>
+          <div className="home_partner">
+            <div className="box_logo">
+              <img src="https://abym.in/assets/img/icon/partner-icon1.svg" alt=""/>
+            </div>
+            <p>Benefit from our extensive platform expertise and valuable technology partnership with Microsoft. Our in-depth knowledge and collaboration with Microsoft allow us to deliver exceptional solutions tailored to your needs. Whether leveraging their cutting-edge technologies or accessing their resources, our partnership ensures that you receive the highest level of innovation and support.</p>
+          </div>
+        </Col>
+        </Row>
+      </Container>
+    </section>
+
+
+    <section>
+      <Container>
+      {/* <Heading totitle="" title="" subtitle=""  /> */}
+      <Heading totitle="WE ARE SPECIALIZED IN" title="We Integrate Technology and Ideas" subtitle="From custom web design to responsive development and SEO optimization, our team of skilled developers has you covered. Contact us today to take your online presence to the next level!"  />
+
+        <Row>
+          <Col lg={4}></Col>
+          <Col lg={4}></Col>
+        </Row>
+      </Container>
+    </section>
+
+
+
     </>
   );
 }

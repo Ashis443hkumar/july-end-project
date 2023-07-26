@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div>
       <h1>Hello demo</h1>
+      <section>
       <Container>
         <Row>
           <Col lg={4}></Col>
@@ -13,6 +14,9 @@ export default function App() {
           <Col lg={4}></Col>
         </Row>
       </Container>
+      </section>
+    
+
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.home_partner{
+  background-color: #ffff;
+  box-shadow: 0px 12px 12px rgba(21,91,81,0.71);
+  padding: 60px 30px;
+  border-radius: 20px;
+  
+}
+.home_partner p{
+  font-size: 18px;
+}
+.box_logo{
+  margin-top: -90px;
+  border: 1px solid black;
+  width: 200px;
+  /* height: 71px; */
+  margin-bottom: 20px;
+  
+}
+.box_logo img{
+  width: 100%;
+}
