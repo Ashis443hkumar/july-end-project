@@ -21,6 +21,9 @@
 }
 
 /* specializes */
+.specilalized{
+  padding: 40px 0;
+}
 .specializes{
   color: #000;
   background-color: #fff;
@@ -118,4 +121,11 @@
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+.home_client{
+  background-color: #663399;
+}
+.home_client img{
+  width: 100%;
+  object-fit: cover;
 }

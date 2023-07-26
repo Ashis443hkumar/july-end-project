@@ -88,7 +88,7 @@ export default function About() {
     </section>
 
 
-    <section>
+    <section className="specilalized">
       <Container>
       {/* <Heading totitle="" title="" subtitle=""  /> */}
       <Heading totitle="WE ARE SPECIALIZED IN" title="We Integrate Technology and Ideas" subtitle="From custom web design to responsive development and SEO optimization, our team of skilled developers has you covered. Contact us today to take your online presence to the next level!"  />
@@ -198,6 +198,19 @@ export default function About() {
 
       </Container>
     </section>
+      <section className="home_client">
+      <Container>
+      <Heading totitle="CLIENTS" title="Our Esteemed Clients" subtitle="We take pride in working for brands having remarkable identity" />
+        <Row>
+          <Col lg={3}><img src="https://abym.in/assets/img/client-logo/1.png" alt=""/></Col>
+          <Col lg={3}><img src="https://abym.in/assets/img/client-logo/2.png" alt=""/></Col>
+          <Col lg={3}><img src="https://abym.in/assets/img/client-logo/3.png" alt=""/></Col>
+          <Col lg={3}><img src="https://abym.in/assets/img/client-logo/4.png" alt=""/></Col>
+
+        </Row>
+      </Container>
+      </section>
+
 
 
 

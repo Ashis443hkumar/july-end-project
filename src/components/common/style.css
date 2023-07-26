@@ -7,10 +7,12 @@
 .heading h4{
   color: rgb(101, 151, 134);
 }
+.heading h1{
+  color: rgb(69, 128, 158);
+}
 .footer{
   background-color: aliceblue;
   padding: 40px 0%;
-  margin-top: 50px;
 }
 .footer ul li{
   list-style: none;
