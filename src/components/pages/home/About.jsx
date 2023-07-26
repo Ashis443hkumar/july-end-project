@@ -246,14 +246,14 @@ export default function About() {
             <h2>ARE YOU PLANNING?</h2>
             <p>Get Estimation and technology suggestion from expert free of cost.</p>
           <Form className="mt-4">
-           <Form.Group className="mb-3" controlId="formBasicEmail">
+           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Control type="email" placeholder="Enter Name" />
            </Form.Group>
-           <Form.Group className="mb-3" controlId="formBasicEmail">
+           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Control type="email" placeholder="Mobile numbers" />
            </Form.Group>
 
-           <Form.Group className="mb-3" controlId="formBasicEmail">
+           <Form.Group className="mb-4" controlId="formBasicEmail">
             <Form.Control type="email" placeholder="Enter email" />
            </Form.Group>
            <FloatingLabel
@@ -277,11 +277,15 @@ export default function About() {
         </Row>
       </Container>
 
+     
+
+
+      </section>
       <div className="mt-4">
         <Container>
           <Row  className="mx-auto">
-            <Col lg={10} className="bbb">
-            <div className="dc mx-auto">
+            <Col lg={11} className="bbb mx-auto">
+            <div className="dc ">
               <h3>GET A FREE CONSULTATION FROM EXPERTS</h3>
               <p>Professional service for your software solutions</p>
             </div>
@@ -293,9 +297,6 @@ export default function About() {
           </Row>
         </Container>
       </div>
-
-
-      </section>
       
 
 
