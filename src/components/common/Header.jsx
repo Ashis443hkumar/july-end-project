@@ -44,10 +44,7 @@ function Header() {
 
             <Nav.Link href="#action2">Portfolio</Nav.Link>
             <Nav.Link href="#action2">Products</Nav.Link>
-
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            
           </Nav>
           <Button className="px-5 py-2">Contact</Button>
       
