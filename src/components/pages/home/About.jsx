@@ -12,7 +12,6 @@ export default function About() {
         <Row>
           <Col lg={6}>
             <img src="https://cdn.pixabay.com/photo/2015/10/31/12/00/meeting-1015313_640.jpg" className="w-100" alt=""/>
-            {/* <Image src="https://cdn.pixabay.com/photo/2015/10/31/12/00/meeting-1015313_640.jpg" rounded /> */}
           </Col>
           <Col lg={6}>
             <h6  className="">WHO WE ARE</h6>
@@ -95,7 +94,56 @@ export default function About() {
       <Heading totitle="WE ARE SPECIALIZED IN" title="We Integrate Technology and Ideas" subtitle="From custom web design to responsive development and SEO optimization, our team of skilled developers has you covered. Contact us today to take your online presence to the next level!"  />
 
         <Row>
-          <Col lg={4}></Col>
+          <Col lg={3}>
+          <div className="specializes">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Design</h1>
+            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          <Col lg={3}>
+          <div className="specializes">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Design</h1>
+            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          <Col lg={3}>
+          <div className="specializes">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Design</h1>
+            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          <Col lg={3}>
+          <div className="specializes">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Design</h1>
+            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          
+
           <Col lg={4}></Col>
         </Row>
       </Container>

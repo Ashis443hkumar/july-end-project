@@ -19,3 +19,43 @@
 .box_logo img{
   width: 100%;
 }
+
+/* specializes */
+.specializes{
+  color: #ffff;
+  background-color: coral;
+  padding: 40px 30px;
+  height: 400px;
+  width: 100%;
+
+}
+.speciallizes_img{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: aliceblue;
+}
+.speciallizes_img img{
+  width: 100%;
+}
+.specializes h1{
+  margin: 20px 0;
+}
+.special_btn_icons{
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-left: 160px;
+  margin-top: 40px;
+  background-color: crimson;
+}
+.special_btn_icons i{
+  color: #ffff;
+
+}
