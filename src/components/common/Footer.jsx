@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css"
 import { Col, Container, Row } from "react-bootstrap";
 
 export default function Footer() {
   return (
     <div>
-      <section>
+      <section className="footer">
         <Container>
           <Row>
             <Col lg={2}>
@@ -63,13 +64,28 @@ export default function Footer() {
                 <li>Contact Us</li>
               </ul>
             </Col>
-            
-            
-
-            
           </Row>
         </Container>
       </section>
+
+      <footer className="bg-secondary">
+        <Container>
+          <Row>
+            <Col lg={6}>
+              <p>Copyright © 2023 AbyM. Full stack mobile (iOS, Android) and web app design and development agency</p>
+            </Col>
+            <Col lg={6}>
+              <p></p>
+              <span>Terms of Use </span>
+              <span> Privacy Policy</span>
+            </Col>
+
+          </Row>
+        </Container>
+
+      </footer>
+
+
     </div>
   );
 }
