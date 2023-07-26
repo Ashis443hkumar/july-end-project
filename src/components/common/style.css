@@ -1,6 +1,7 @@
 .footer{
   background-color: aliceblue;
   padding: 40px 0%;
+  margin-top: 50px;
 }
 .footer ul li{
   list-style: none;
@@ -14,8 +15,7 @@
   height: 90vh;
   background-position: center;
   background-size: cover;
-
-
+  position: relative;
 }
 .hero_content{
   position: absolute;
@@ -36,9 +36,11 @@
   left: 0;
   padding-top: 20px;
   padding-bottom: 25px;
+  margin-bottom: 20px;
   
 }
 .hero_bottom_content h1{
+  color: #fff;
   font-size: 52px;
 }
 .hero_bottom_content p{

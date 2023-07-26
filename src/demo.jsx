@@ -11,7 +11,6 @@ export default function App() {
           <Col lg={4}></Col>
           <Col lg={4}></Col>
           <Col lg={4}></Col>
-
         </Row>
       </Container>
     </div>
