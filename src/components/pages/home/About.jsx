@@ -259,26 +259,19 @@ export default function About() {
            <FloatingLabel
             controlId="floatingTextarea"
             label="Comments"
-            className="mb-3 py-5"
-          >
+            className="mb-3 py-5"   >
             <Form.Control as="textarea" placeholder="Leave a comment here" />
           </FloatingLabel>
-
-
           <Button variant="primary" type="submit">
             Submit
           </Button>
-        </Form>
-
-          </Col>
+         </Form>
+        </Col>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/5.png" alt="" />
           </Col>
         </Row>
       </Container>
-
-     
-
 
       </section>
       <div className="mt-4">
