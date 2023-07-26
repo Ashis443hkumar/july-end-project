@@ -129,3 +129,35 @@
   width: 100%;
   object-fit: cover;
 }
+
+.testimonial_clinet_info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home_testimonial p{
+  font-size: 22px;
+}
+.testimonial_clinet_info img{
+  width: 70px;
+  margin-right: 20px;
+}
+.testimonial_clinet_info h2{
+  font-size: 21px;
+}
+.client_btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: crimson;
+  margin-left: 90px;
+}
+.client_btn span{
+  margin-left: 40px;
+  font-size: 22px;
+  margin-top: -8px;
+}

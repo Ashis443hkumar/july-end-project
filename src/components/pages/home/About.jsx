@@ -198,7 +198,8 @@ export default function About() {
 
       </Container>
     </section>
-      <section className="home_client">
+
+    <section className="home_client">
       <Container>
       <Heading totitle="CLIENTS" title="Our Esteemed Clients" subtitle="We take pride in working for brands having remarkable identity" />
         <Row>
@@ -210,6 +211,34 @@ export default function About() {
         </Row>
       </Container>
       </section>
+
+      <section className="home_testimonial">
+       <Container>
+        <h4>TESTIMONIALS</h4>
+        <h1>Check what our client Says about us</h1>
+      
+        <Row>
+          <Col lg={6} className="pt-5 mt-5">
+            <p>"Get Estimation and technology suggestion from expert free of cost."</p>
+            <div className="testimonial_clinet_info ">
+              <img src="https://abym.in/assets/img/post/testimonial/testimonials2.png" alt="" />
+              <div className="ddddddd">
+                <h2>Nisha yadav</h2>
+                <span>Client of Company</span>
+              </div>
+              <button className="client_btn d-flex"><i class="fa-solid fa-arrow-right "></i> <span>Play</span> </button>
+            </div>
+          </Col>
+          <Col lg={6}>
+            <img src="https://cdn.pixabay.com/photo/2015/10/31/12/00/meeting-1015313_640.jpg" className="w-100" alt=""/>
+          </Col>
+     
+
+        </Row>
+      </Container>
+      </section>
+
+
 
 
 
