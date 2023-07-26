@@ -3,6 +3,10 @@ import { Container, Row,Col, Button } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 import Heading from "../../common/Heading";
 import "./style.css"
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import FloatingLabel from 'react-bootstrap/FloatingLabel';
+
 
 export default function About() {
   return (
@@ -50,7 +54,7 @@ export default function About() {
     </div>
 
     <section>
-    <Container>
+     <Container>
       {/* <Heading totitle="" title="" subtitle=""  /> */}
       <Heading totitle="PROCESS" title="Our Working Process" subtitle="As a website-building firm, we are constantly attempting to innovate and experiment with new layouts. Modernization is something we like. We can design an excellent website for you that is creative, appealing, informational, and efficient."  />
         <Row className="text-center py-0">
@@ -216,7 +220,6 @@ export default function About() {
        <Container>
         <h4>TESTIMONIALS</h4>
         <h1>Check what our client Says about us</h1>
-      
         <Row>
           <Col lg={6} className="pt-5 mt-5">
             <p>"Get Estimation and technology suggestion from expert free of cost."</p>
@@ -232,11 +235,51 @@ export default function About() {
           <Col lg={6}>
             <img src="https://cdn.pixabay.com/photo/2015/10/31/12/00/meeting-1015313_640.jpg" className="w-100" alt=""/>
           </Col>
-     
-
         </Row>
       </Container>
       </section>
+
+      <section className="home_user_info">
+      <Container>
+        <Row>
+          <Col lg={6} className="form_box ">
+            <h2>ARE YOU PLANNING?</h2>
+            <p>Get Estimation and technology suggestion from expert free of cost.</p>
+          <Form className="mt-4">
+           <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Control type="email" placeholder="Enter Name" />
+           </Form.Group>
+           <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Control type="email" placeholder="Mobile numbers" />
+           </Form.Group>
+
+           <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Control type="email" placeholder="Enter email" />
+           </Form.Group>
+           <FloatingLabel
+            controlId="floatingTextarea"
+            label="Comments"
+            className="mb-3 py-5"
+          >
+            <Form.Control as="textarea" placeholder="Leave a comment here" />
+          </FloatingLabel>
+
+
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </Form>
+
+          </Col>
+          <Col lg={6}>
+            <img src="https://abym.in/assets/img/post/5.png" alt="" />
+          </Col>
+        </Row>
+      </Container>
+
+      
+      </section>
+      
 
 
 
