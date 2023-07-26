@@ -95,7 +95,7 @@ export default function About() {
 
         <Row>
           <Col lg={3}>
-          <div className="specializes">
+          <div className="specializes step_1">
             <div className="speciallizes_img">
             <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
             </div>
@@ -107,45 +107,95 @@ export default function About() {
           </div>
           </Col>
           <Col lg={3}>
-          <div className="specializes">
+          <div className="specializes step_2">
             <div className="speciallizes_img">
             <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
             </div>
-            <h1>Design</h1>
-            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <h1>Development</h1>
+            <p>Vision + Skills = Stunning Solutions. Websites, Apps, and More. From Idea to Launch and Beyond.</p>
             <button className="special_btn_icons">
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
           </Col>
           <Col lg={3}>
-          <div className="specializes">
+          <div className="specializes step_3">
             <div className="speciallizes_img">
             <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
             </div>
-            <h1>Design</h1>
-            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <h1>Digital Marketing</h1>
+            <p>Digital marketing services to help you grow your online business. We provide SEO solutions</p>
             <button className="special_btn_icons">
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
           </Col>
           <Col lg={3}>
-          <div className="specializes">
+          <div className="specializes step_4">
             <div className="speciallizes_img">
             <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
             </div>
-            <h1>Design</h1>
-            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <h1>IT Consultant Services</h1>
+            <p>We help you with IT infrastructure, processes, solutions, and risks. Improve your IT</p>
             <button className="special_btn_icons">
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
           </Col>
-          
-
-          <Col lg={4}></Col>
         </Row>
+
+        
+        <Row className="mt-5 pt-4">
+          <Col lg={3}>
+          <div className="specializes step_5">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Design</h1>
+            <p>We make designs that look good, work well, and feel right. We make your product easy and</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          <Col lg={3}>
+          <div className="specializes step_6">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Development</h1>
+            <p>Vision + Skills = Stunning Solutions. Websites, Apps, and More. From Idea to Launch and Beyond.</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          <Col lg={3}>
+          <div className="specializes step_7">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>Digital Marketing</h1>
+            <p>Digital marketing services to help you grow your online business. We provide SEO solutions</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+          <Col lg={3}>
+          <div className="specializes step_8">
+            <div className="speciallizes_img">
+            <img src="https://abym.in/assets/img/icon/ser1.png" alt="" />
+            </div>
+            <h1>IT Consultant Services</h1>
+            <p>We help you with IT infrastructure, processes, solutions, and risks. Improve your IT</p>
+            <button className="special_btn_icons">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          </Col>
+        </Row>
+
       </Container>
     </section>
 
