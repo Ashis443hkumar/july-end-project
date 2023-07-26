@@ -168,7 +168,7 @@
   padding: 60px 0%;
 }
 .form_box{
-  background-color: #663399;
+  background-color: #fff;
   padding: 10px 30px;
 
 }
@@ -188,8 +188,11 @@
   justify-content: space-between;
   align-items: center;
   background-color: #663399;
-  padding: 40px 20px;
+  border-radius: 20px;
+  padding: 40px 40px;
   margin-top: -70px;
+  z-index: 9999;
+  color: #fff;
 
 }
 .btn_1{
