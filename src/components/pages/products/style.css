@@ -52,3 +52,11 @@
   box-shadow: 0px 0px 12px 0px rgba(81,81,81,0.91);
   margin-bottom: 30px;
 }
+
+/* cabs_booking */
+.cabs_booking{
+  background-color: rgb(14, 133, 151);
+}
+.heading h1{
+  color: #fff;
+}
