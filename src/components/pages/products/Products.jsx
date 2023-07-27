@@ -122,11 +122,38 @@ export default function Products() {
       </Container>
       </section>
 
+        {/* blog */}
       <section className="products_blogs">
       <Container>
         <Heading title="Blogs" subtitle="We share insights and knowledge on technology topics. Our content is valuable, and informative, and helps our readers learn, grow, and succeed." />
-        <Row>
+        <Row className="gx-4">
           <Col lg={4}>
+          <Card  className="blog_card">
+          {/* style={{ width: '18rem' }} */}
+           <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
+           <Card.Body className="text-center">
+            <Card.Title>IGNOU Result</Card.Title>
+            <Card.Text>
+               We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
+            </Card.Text>
+             <button>Visites website</button>
+           </Card.Body>
+         </Card>
+        </Col>
+        <Col lg={4}>
+          <Card  className="blog_card">
+          {/* style={{ width: '18rem' }} */}
+           <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
+           <Card.Body className="text-center">
+            <Card.Title>IGNOU Result</Card.Title>
+            <Card.Text>
+               We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
+            </Card.Text>
+             <button>Visites website</button>
+           </Card.Body>
+         </Card>
+        </Col>
+        <Col lg={4}>
           <Card  className="blog_card">
           {/* style={{ width: '18rem' }} */}
            <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
