@@ -4,11 +4,24 @@
   background: url("https://abym.in/assets/img/post/5.png");
   background-size: cover;
   background-position: center;
-  text-align: center;
   width: 100%;
   height: 80vh;
+  padding-top: 120px;
+}
+.portfolio_hero_content{
+  text-align: start;
+  color: aliceblue;
+}
+.portfolio_hero_content h1{
+  line-height: 65px;
+  font-size: 72px;
+}
+.portfolio_hero_content p{
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 19px;
 }
 .protfolio_hero img{
   width: 100%;
-  /* height: 300px; */
+  height: 300px;
 }

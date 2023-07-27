@@ -7,9 +7,9 @@ export default function Hero() {
       <section className="protfolio_hero">
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} className="portfolio_hero_content">
             <h4>Our Portfolio</h4>
-            <h1>See our amazing work</h1>
+            <h1>See our <br/> amazing work</h1>
             <hr/>
             <p>We are “AbyM Technology”, a company that provides IT and digital promotion services. We create stunning solutions for your needs. Trust us, we know what we’re doing!</p>
           </Col>
