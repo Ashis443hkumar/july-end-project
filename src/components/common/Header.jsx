@@ -7,6 +7,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import {NavLink} from "react-router-dom"
+
 function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -19,7 +21,7 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <NavLink to="/">Home</NavLink>
 
             <NavDropdown title="About Us" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">About Us</NavDropdown.Item>

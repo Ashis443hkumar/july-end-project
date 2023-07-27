@@ -6,9 +6,8 @@ import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 import Hero from "./components/common/Hero";
 
-
+import {Routes, Route} from "react-router-dom"
 import Home from "./components/pages/home/Home"
-
 
 
 export default function App() {
@@ -16,7 +15,11 @@ export default function App() {
     <div>
       <Header/>
       <Hero/>
-      <Home/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+
+      </Routes>
+      {/* <Home/> */}
       <Footer/>
     </div>
   );
