@@ -83,12 +83,23 @@ export default function Products() {
       </Container>
       </section>
 
-      <section>
-      <Container>
+      <section className="py-5 bg-white">
+      <Container >
         <Row>
-          <Col lg={4}></Col>
-          <Col lg={4}></Col>
-          <Col lg={4}></Col>
+          <Col lg={6}>
+            <img src="https://abym.in/assets/img/post/quiz.png" className="w-100" alt="" />
+          </Col>
+          <Col lg={6}>
+            <h1>Quiz and Test</h1>
+            <p>We create engaging and interactive quiz and test apps for various domains and purposes. Whether you need an app for education, entertainment, or evaluation, we have the right solution for you. Some of the features of our quiz and test apps are:</p>
+
+            <ul>
+              <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
+              <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
+              <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
+            </ul>
+            <button>Consult Our Expert Team</button>
+          </Col>
         </Row>
       </Container>
       </section>
