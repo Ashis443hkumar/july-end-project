@@ -1,10 +1,13 @@
 import React from "react";
 import { Container, Row,Col } from "react-bootstrap";
+import Hero from "./Hero";
+import "./style.css"
 
 export default function Portfolio() {
   return (
     <div>
-      <h1>Hello portfolio </h1>
+      <Hero/>
+
     
     
 

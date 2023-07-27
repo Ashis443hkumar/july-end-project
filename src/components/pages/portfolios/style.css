@@ -1,6 +1,14 @@
-.products{
-  background-color: crimson;
+
+
+.protfolio_hero{
+  background: url("https://abym.in/assets/img/post/5.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
 }
-body{
-  background-color: blue;
+.protfolio_hero img{
+  width: 100%;
+  /* height: 300px; */
 }
