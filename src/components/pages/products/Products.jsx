@@ -8,6 +8,22 @@ export default function Products() {
   return (
     <div className="products">
       <Hero/>
+
+      <section className="mt-5 pt-5 bg-white">
+      <Container>
+        <Row>
+          <Col lg={6}>
+            <h1>E-Commerce</h1>
+            <p className="py-4">Launch your online store on web, Android, and iOS platforms. Make your products accessible to your customers with just a few taps. We have the expertise to create.</p>
+            <button>CONSULT OUR EXPERT TEAM </button>
+          </Col>
+          <Col lg={6}>
+            <img src="https://abym.in/assets/img/post/ecomerce-desk.png" className="w-100" alt=""/>
+          </Col>
+        </Row>
+      </Container>
+      </section>
+
       <section>
       <Container>
         <Heading  title="M-Commerce" subtitle="We value your projects and help you stand out from the crowd. Our partners achieve excellence with our cutting-edge solutions." />
