@@ -169,11 +169,32 @@ export default function Products() {
         </Row>
       </Container>
       </section>
+      
 
-
+      <section>
+      <Container>
+        <Heading title="Cab Booking System" subtitle="We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all." />
+        <Row>
+          <Col lg={3} className="">
+            <h1>Cab Booking Test Cases</h1>
+            <p>Customers and drivers rely on our system to book and assign cabs efficiently. Therefore, we need to test every aspect of our system’s functionality thoroughly. For this purpose, we have created a comprehensive set of cab booking test cases that cover various scenarios and outcomes.</p>
+          </Col>
+          <Col lg={6}>
+            <Row>
+             <Col lg={4}><img src="https://abym.in/assets/img/icon/cab-icon1.png" alt=""/></Col>
+             <Col lg={4}><img src="https://abym.in/assets/img/icon/cab-icon2.png" alt=""/></Col>
+             <Col lg={4}><img src="https://abym.in/assets/img/icon/cab-icon3.png" alt=""/></Col>
+            </Row>
+            <Col lg={12}><img src="https://abym.in/assets/img/post/cab-img.png" className="w-100" alt=""/></Col>
+          </Col>
+          <Col lg={3} className="text-end">
+            <h1>Conclusion</h1>
+            <p>Our system is a sophisticated solution that enables customers to book cabs and drivers to get assigned to them. We want to make sure that our system works flawlessly and satisfies both customers and drivers. That’s why we test our system rigorously with a comprehensive set of cab booking test cases that cover various scenarios and outcomes.</p>
+          </Col>
+        </Row>
+      </Container>
+      </section>
        
-    
-
     </div>
   );
 }
