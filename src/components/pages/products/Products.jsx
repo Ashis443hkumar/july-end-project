@@ -61,6 +61,39 @@ export default function Products() {
         </Row>
       </Container>
       </section>
+
+
+      <section className="mt-5">
+      <Container>
+        <Row>
+          <Col lg={6}>
+            <h1>Examples and benefits of social CRM</h1>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Get real-time feedback and market data by tracking your brand’s online conversations.</li>
+              <li><i class="fa-solid fa-check"></i> Share your ideas for new or improved products on social media and influence our innovation process.</li>
+              <li><i class="fa-solid fa-check"></i> Monitor your brand’s online reputation and respond to customer queries and complaints promptly.</li>
+
+              <li><i class="fa-solid fa-check"></i> Discover new opportunities and trends by engaging with your social media followers and influencers.</li>
+            </ul>
+          </Col>
+          <Col lg={6}>
+            <img src="https://abym.in/assets/img/post/crm.png" className="w-100" alt=""/>
+          </Col>
+        </Row>
+      </Container>
+      </section>
+
+      <section>
+      <Container>
+        <Row>
+          <Col lg={4}></Col>
+          <Col lg={4}></Col>
+          <Col lg={4}></Col>
+        </Row>
+      </Container>
+      </section>
+
+
        
     
 
