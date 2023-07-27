@@ -17,6 +17,9 @@ export default function App() {
       <Hero/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/portfolio" element={<Home/>}/>
+        <Route path="/products" element={<Home/>}/>
+
 
       </Routes>
       {/* <Home/> */}

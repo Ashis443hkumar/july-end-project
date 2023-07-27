@@ -44,8 +44,8 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="#action2">Portfolio</Nav.Link>
-            <Nav.Link href="#action2">Products</Nav.Link>
+            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink to="/products">Products</NavLink>
             
           </Nav>
           <Button className="px-5 py-2">Contact</Button>
