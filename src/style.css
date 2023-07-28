@@ -10,3 +10,11 @@ body{
 li{
   list-style: none;
 }
+.comp_btn{
+  background-color: aliceblue;
+  padding: 7px 30px;
+  color: #000;
+  border: none;
+  outline: none;
+
+}

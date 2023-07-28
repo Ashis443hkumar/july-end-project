@@ -1,6 +1,5 @@
 
 
-
 .protfolio_hero{
   background: url("https://abym.in/assets/img/post/5.png");
   background-size: cover;
@@ -66,8 +65,8 @@
   height: 500px;
   object-fit: cover;
 }
+/* hero */
 .caption_caousel{
-  background-color: #fff;
   width: 400px;
   height: 400px;
   top: 30%;
@@ -78,7 +77,11 @@
 }
 .caption_caousel h5{
   font-size: 22px;
+  color: #fff;
+
 }
 .caption_caousel h1{
   font-size: 72px;
+  color: #fff;
+
 }
