@@ -1,0 +1,17 @@
+.lift_sidemenu{
+  background-color: rgba(222, 113, 24, 0.792);
+  width: 100%;
+  height: 70vh;
+  padding: 70px 0;
+}
+.lift_sidemenu a{
+  font-size: 22px;
+  margin: 10px 0;
+  color:#000;
+  background-color: red;
+  
+}
+
+.lift_sidemenu a:hover{
+  background-color: aliceblue;
+}
