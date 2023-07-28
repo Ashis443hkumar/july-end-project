@@ -5,7 +5,27 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Footer() {
   return (
     <div>
+
+      
+
       <section className="footer">
+      <div className="">
+        <Container>
+          <Row  className="mx-auto">
+            <Col lg={11} className="bbb mx-auto">
+            <div className="dc ">
+              <h3>GET A FREE CONSULTATION FROM EXPERTS</h3>
+              <p>Professional service for your software solutions</p>
+            </div>
+            <div className="ddc">
+              <button className="btn_1">Get Status</button>
+              <button className="btn_2">Call Us</button>
+            </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      
         <Container>
           <Row>
             <Col lg={2}>

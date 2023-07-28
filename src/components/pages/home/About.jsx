@@ -274,7 +274,7 @@ export default function About() {
       </Container>
 
       </section>
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <Container>
           <Row  className="mx-auto">
             <Col lg={11} className="bbb mx-auto">
@@ -289,7 +289,7 @@ export default function About() {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       
 
 
