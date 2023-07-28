@@ -10,16 +10,7 @@
 .heading h1{
   color: rgb(69, 128, 158);
 }
-.footer{
-  background-color: aliceblue;
-  padding: 40px 0%;
-}
-.footer ul li{
-  list-style: none;
-  margin-left: -30px;
-  padding: 3px 0;
-  font-size: 17px;
-}
+
 .hero{
   background-image: url("https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_640.jpg");
   width: 100%;
@@ -57,4 +48,31 @@
 .hero_bottom_content p{
   color: #fff;
   font-size: 25px;
+}
+
+
+.footer{
+  background-color: aliceblue;
+  padding: 40px 0%;
+}
+.footer h4{
+  margin-bottom: 30px;
+}
+.footer ul li{
+  list-style: none;
+  margin-left: -30px;
+  padding: 3px 0;
+  font-size: 17px;
+}
+.footer_bottom{
+  background-color: #fff;
+  color: #000;
+  padding-top: 20px;
+
+}
+
+.footer_bottom .footer_bottom_right{
+  text-align: end;
+  margin-top: 5px;
+  
 }

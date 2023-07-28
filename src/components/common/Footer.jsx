@@ -68,16 +68,17 @@ export default function Footer() {
         </Container>
       </section>
 
-      <footer className="bg-secondary">
+      <footer className="footer_bottom">
         <Container>
           <Row>
             <Col lg={6}>
               <p>Copyright © 2023 AbyM. Full stack mobile (iOS, Android) and web app design and development agency</p>
             </Col>
             <Col lg={6}>
-              <p></p>
-              <span>Terms of Use </span>
-              <span> Privacy Policy</span>
+              <div className="footer_bottom_right">
+                <span>Terms of Use </span>
+                <span className="px-5"> Privacy Policy</span>
+              </div>
             </Col>
 
           </Row>
