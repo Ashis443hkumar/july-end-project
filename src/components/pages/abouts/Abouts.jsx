@@ -26,10 +26,10 @@ export default function Abouts() {
           <Tab.Content>
             <Tab.Pane eventKey="first">
           
-            <Row className="py-5">
-             <Col lg={8} className="pt-2">
-                <p className="mb-5">AbyM Technology is your partner for IT and Branding-Promotion solutions. We help you build and grow your online presence with innovative solutions that fit your vision and goals. We deliver web design & development, app creation, and promotion with skill and flair.</p>
-                <div className="pt-5">
+            <Row className="">
+             <Col lg={8} className="">
+                <p className="">AbyM Technology is your partner for IT and Branding-Promotion solutions. We help you build and grow your online presence with innovative solutions that fit your vision and goals. We deliver web design & development, app creation, and promotion with skill and flair.</p>
+                <div className="about_right_btn">
                   <button className="comp_btn">Know more about</button>
                   <button className="mx-3">Introduction</button>
                 </div>
@@ -41,13 +41,13 @@ export default function Abouts() {
 
             </Tab.Pane>
             <Tab.Pane eventKey="second">
-            <Row className="pt-5 pl-4">
-              <Col lg={8} className="pt-2">
+            <Row className="">
+              <Col lg={8} className="">
                 <p>“AbyM Technology” is a leading IT and digital solution provider company that helps businesses grow and succeed in the online world.</p>
                 <br/>
                 <p>“AbyM” was founded in 2010 by a team of passionate and experienced IT professionals who wanted to create innovative and effective solutions for various industries. AbyM Technology has been providing high-quality and reliable services ever since, such as web development, app development, digital marketing, graphic design, content writing, and more. AbyM Technology has been the trusted partner of many clients across the globe, ranging from small startups to large corporations.</p>
 
-                <div className="pt-5">
+                <div className="about_right_btn">
                   <button className="comp_btn">Know more about</button>
                   <button className="mx-3">Introduction</button>
                 </div>
