@@ -20,9 +20,9 @@ export default function App() {
   return (
     <div>
       <Header/>
-      <BrondyStory/>
+      {/* <BrondyStory/> */}
 
-      <Introduction/>
+      {/* <Introduction/> */}
 
       <Routes>
         <Route path="/" element={<Home/>}/>

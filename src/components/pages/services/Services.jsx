@@ -3,10 +3,12 @@ import { Container, Row,Col } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
 import "./style.css"
+import Serve from "./Serve"
 
 export default function Services() {
   return (
     <>
+    <Serve/>
     <section className="about_dropdown_menu">
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row >
