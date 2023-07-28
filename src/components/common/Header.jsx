@@ -16,7 +16,7 @@ function Header() {
   return (
      <>
      <section className="">
-     <Navbar expand="lg" className="header">
+     <Navbar expand="lg" className="header" >
       <Container>
         <Navbar.Brand href="#">Abym technology</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

@@ -11,6 +11,8 @@ import Home from "./components/pages/home/Home"
 import Portfolio from "./components/pages/portfolios/Portfolio"
 import Products from "./components/pages/products/Products"
 import Abouts from "./components/pages/abouts/Abouts"
+import Introduction from "./components/pages/abouts/Introduction"
+
 import Services from "./components/pages/services/Services"
 
 
@@ -22,6 +24,7 @@ export default function App() {
   return (
     <div>
       <Header/>
+      <Introduction/>
 
       <Routes>
         <Route path="/" element={<Home/>}/>
