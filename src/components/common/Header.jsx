@@ -22,31 +22,10 @@ function Header() {
             navbarScroll
           >
             <NavLink to="/">Home</NavLink>
-
-            <NavDropdown title="About Us" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">About Us</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="services" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Services</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-
+            <NavLink to="/abouts">Abouts </NavLink>
+            <NavLink to="/services">Services</NavLink>
             <NavLink to="/portfolio">Portfolio</NavLink>
             <NavLink to="/products">Products</NavLink>
-            
           </Nav>
           <Button className="px-5 py-2">Contact</Button>
       

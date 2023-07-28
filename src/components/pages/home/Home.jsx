@@ -1,11 +1,13 @@
 import React from "react";
 import About from "./About";
+import Hero from "./Hero";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello demo</h1>
+      <Hero/>
       <About/>
+
     </div>
   );
 }
