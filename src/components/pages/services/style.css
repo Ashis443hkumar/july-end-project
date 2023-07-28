@@ -1,2 +1,14 @@
 
-saed
+.lift_sidemenu h3{
+  color: aliceblue;
+  text-align: center;
+  margin-top: -20px;
+}
+.side_content_text h5{
+  font-size: 17px;
+  color: red;
+}
+.side_content_text p{
+  font-size: 15px;
+
+}

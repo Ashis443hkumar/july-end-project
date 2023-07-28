@@ -8,19 +8,20 @@
     width: 100%;
     /* height: 80vh; */
     min-height: 70vh;
-    max-height: 90vh;
+    max-height: 100vh;
+    border: 1px solid #eeee;
 }
 
 /* .lift_sidemenu  */
 .lift_sidemenu{
   background-color: rgb(9, 94, 168);
   height: 70vh;
-  padding: 70px 0;
+  padding: 40px 0;
 }
 .lift_sidemenu a{
   font-size: 20px;
   margin: 10px 0;
-  color:#000;
+  color:rgb(255, 255, 255);
   display: block;
   text-transform: uppercase;
 }
