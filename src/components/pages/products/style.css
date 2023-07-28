@@ -53,13 +53,12 @@
 }
 
 
-
-.carousel_caption img{
+/* .carousel_caption */
+/* .carousel_caption img{
   width: 100%;
   height: 500px;
   object-fit: cover;
 }
-/* hero */
 .caption_caousel{
   width: 400px;
   height: 400px;
@@ -72,13 +71,12 @@
 .caption_caousel h5{
   font-size: 22px;
   color: #fff;
-
 }
 .caption_caousel h1{
   font-size: 72px;
   color: #fff;
+} */
 
-}
 
 /* products_second */
 .products_second{
