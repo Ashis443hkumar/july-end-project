@@ -6,18 +6,8 @@ import "./style.css"
 
 export default function Abouts() {
   return (
-    <div>
-      <h1>Hello Abouts</h1>
-
-      <section className="">
-      {/* <Container fluid>
-        <Row>
-          <Col lg={2} className="bg-success">Side menu</Col>
-          <Col lg={10} className="bg-primary">Right menu</Col>
-        </Row>
-      </Container> */}
-
-
+    <>
+    <section className="about_dropdown_menu">
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row >
         <Col lg={3}  >
@@ -32,7 +22,7 @@ export default function Abouts() {
           </Nav>
          </div>
         </Col>
-        <Col lg={9}  className="bg-secondary">
+        <Col lg={9}  className="side_right_content">
           <Tab.Content>
             <Tab.Pane eventKey="first">
           
@@ -61,7 +51,7 @@ export default function Abouts() {
                   <button className="comp_btn">Know more about</button>
                   <button className="mx-3">Introduction</button>
                 </div>
-                
+
               </Col>
               <Col lg={4} className="">
                 <img src="https://abym.in/assets/img/banner/brand-drop.png" className="w-100" alt="" />
@@ -75,6 +65,6 @@ export default function Abouts() {
 
       </section>
 
-    </div>
+    </>
   );
 }
