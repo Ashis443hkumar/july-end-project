@@ -8,6 +8,7 @@ import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 
 
+
 export default function About() {
   return (
     <>
@@ -218,10 +219,12 @@ export default function About() {
 
       <section className="home_testimonial">
        <Container>
-        <h4>TESTIMONIALS</h4>
-        <h1>Check what our client Says about us</h1>
+        
         <Row>
           <Col lg={6} className="pt-5 mt-5">
+          <h4>TESTIMONIALS</h4>
+          <h1>Check what our client <br/> Says about us</h1>
+
             <p>"Get Estimation and technology suggestion from expert free of cost."</p>
             <div className="testimonial_clinet_info ">
               <img src="https://abym.in/assets/img/post/testimonial/testimonials2.png" alt="" />
