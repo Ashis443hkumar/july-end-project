@@ -16,6 +16,27 @@
   margin: 10px auto;
 }
 
+/* header section pages */
+
+.header{
+  background-color: #fff;
+  width: 100%;
+  height: 13vh;
+}
+
+#navbarScroll a{
+  margin: 10px;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
 
 /* Footer section */
 .bbb{

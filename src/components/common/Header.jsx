@@ -9,11 +9,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import {NavLink} from "react-router-dom"
 
+import "./style.css"
+
+
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+     <>
+     <section className="">
+     <Navbar expand="lg" className="header">
       <Container>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#">Abym technology</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -32,6 +37,8 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+     </section>
+     </>
   );
 }
 
