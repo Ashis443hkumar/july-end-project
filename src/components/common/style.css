@@ -24,12 +24,13 @@
   height: 13vh;
 }
 
-#navbarScroll a{
+.header a{
   margin: 10px;
   color: #000;
   text-decoration: none;
   font-size: 18px;
 }
+
 
 
 
