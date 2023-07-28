@@ -17,7 +17,7 @@ export default function Products() {
           <Col lg={6}>
             <h1>E-Commerce</h1>
             <p className="py-4">Launch your online store on web, Android, and iOS platforms. Make your products accessible to your customers with just a few taps. We have the expertise to create.</p>
-            <button>CONSULT OUR EXPERT TEAM </button>
+            <button className="comp_btn">CONSULT OUR EXPERT TEAM </button>
           </Col>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/ecomerce-desk.png" className="w-100" alt=""/>
@@ -26,7 +26,7 @@ export default function Products() {
       </Container>
       </section>
 
-      <section>
+      <section className="">
       <Container>
         <Heading  title="M-Commerce" subtitle="We value your projects and help you stand out from the crowd. Our partners achieve excellence with our cutting-edge solutions." />
         <Row>
