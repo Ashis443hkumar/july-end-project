@@ -5,9 +5,10 @@ import "./style.css";
 
 export default function Intoduction() {
   return (
-    <div>
+     <>
+     <article> 
       <section>
-      <Container className="py-5">
+       <Container className="py-5">
         <Row>
           <Col lg={4}>
             <h1>Who We Are?</h1>
@@ -28,7 +29,7 @@ export default function Intoduction() {
       </section>
 
       <section className="">
-      <Container>
+       <Container>
         <Heading title="Work Life At Its Best" subtitle="With the utmost priority of adding value to the projects we undertake, we ensure that our partners stay ahead of the clutter and achieve excellence." />
         <Row>
           <Col lg={3}><img src="https://abym.in/assets/img/post/work-life-left.png" className="w-100"  alt=""/></Col>
@@ -39,7 +40,7 @@ export default function Intoduction() {
       </section>
       
       <section className="ourCore_value">
-      <Container>
+       <Container>
         <Row>
           <Col lg={6} className="p-4 px-5">
            <img src="https://abym.in/assets/img/post/1.png" className="w-100"  alt=""/>
@@ -64,8 +65,8 @@ export default function Intoduction() {
       
 
       <section className="home_client">
-      <Container>
-      <Heading totitle="CLIENTS" title="Our Esteemed Clients" subtitle="We take pride in working for brands having remarkable identity" />
+       <Container>
+        <Heading totitle="CLIENTS" title="Our Esteemed Clients" subtitle="We take pride in working for brands having remarkable identity" />
         <Row>
           <Col lg={3}><img src="https://abym.in/assets/img/client-logo/1.png" alt=""/></Col>
           <Col lg={3}><img src="https://abym.in/assets/img/client-logo/2.png" alt=""/></Col>
@@ -76,7 +77,7 @@ export default function Intoduction() {
       </section>
 
       <section className="abc py-5">
-      <Container>
+       <Container>
         <Row>
           <Col lg={6} className="text-center">
             <img src="https://abym.in/assets/img/post/career-img1.png" className="" alt=""/>
@@ -96,9 +97,22 @@ export default function Intoduction() {
       </section>
       
       
-      
+      </article>
     
 
-    </div>
+      <article>
+      <section className="abc">
+      <Container>
+        <Row>
+          <Col lg={4}></Col>
+          <Col lg={4}></Col>
+          <Col lg={4}></Col>
+        </Row>
+      </Container>
+      </section>
+      
+      </article>
+
+    </>
   );
 }
