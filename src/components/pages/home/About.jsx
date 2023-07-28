@@ -56,7 +56,6 @@ export default function About() {
 
     <section>
      <Container>
-      {/* <Heading totitle="" title="" subtitle=""  /> */}
       <Heading totitle="PROCESS" title="Our Working Process" subtitle="As a website-building firm, we are constantly attempting to innovate and experiment with new layouts. Modernization is something we like. We can design an excellent website for you that is creative, appealing, informational, and efficient."  />
         <Row className="text-center py-0">
           <Col lg={12}>
@@ -212,7 +211,6 @@ export default function About() {
           <Col lg={3}><img src="https://abym.in/assets/img/client-logo/2.png" alt=""/></Col>
           <Col lg={3}><img src="https://abym.in/assets/img/client-logo/3.png" alt=""/></Col>
           <Col lg={3}><img src="https://abym.in/assets/img/client-logo/4.png" alt=""/></Col>
-
         </Row>
       </Container>
       </section>
