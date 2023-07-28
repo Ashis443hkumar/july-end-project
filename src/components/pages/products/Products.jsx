@@ -4,15 +4,14 @@ import Heading from "../../common/Heading";
 import Hero from "./Hero";
 import "./style.css"
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
 
 export default function Products() {
   return (
     <div className="products">
       <Hero/>
 
-      <section className="mt-5 pt-5 bg-white">
-      <Container>
+      <section className="pt-5 b products_second">
+       <Container>
         <Row>
           <Col lg={6}>
             <h1>E-Commerce</h1>
@@ -26,15 +25,15 @@ export default function Products() {
       </Container>
       </section>
 
-      <section className="">
-      <Container>
+      <section className="Ecomerce_projects">
+       <Container>
         <Heading  title="M-Commerce" subtitle="We value your projects and help you stand out from the crowd. Our partners achieve excellence with our cutting-edge solutions." />
         <Row>
           <Col lg={4}>
            <div className="ecommerce_head">
             <img src="https://abym.in/assets/img/icon/work-life-ico1.png" alt="" />
             <h3>Mobile retargeting</h3>
-            <p>Reach out to potential customers who have shown interest in your app or website</p>
+            <p>Reach out to potential customers who have shown interest in your app  or website</p>
            </div>
 
            <div className="ecommerce_head">
@@ -81,11 +80,11 @@ export default function Products() {
       </section>
 
 
-      <section className="mt-5">
-      <Container>
+      <section className="pt-5 product_erm">
+       <Container>
         <Row>
           <Col lg={6}>
-            <h1>Examples and benefits of social CRM</h1>
+            <h1>Examples and benefits <br/> of social CRM</h1>
             <ul>
               <li><i class="fa-solid fa-check"></i> Get real-time feedback and market data by tracking your brand’s online conversations.</li>
               <li><i class="fa-solid fa-check"></i> Share your ideas for new or improved products on social media and influence our innovation process.</li>
@@ -101,13 +100,13 @@ export default function Products() {
       </Container>
       </section>
 
-      <section className="py-5 bg-white">
-      <Container >
+      <section className="quest_test">
+       <Container >
         <Row>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/quiz.png" className="w-100" alt="" />
           </Col>
-          <Col lg={6}>
+          <Col lg={6} className="p-5 pt-0 ">
             <h1>Quiz and Test</h1>
             <p>We create engaging and interactive quiz and test apps for various domains and purposes. Whether you need an app for education, entertainment, or evaluation, we have the right solution for you. Some of the features of our quiz and test apps are:</p>
 
@@ -116,7 +115,7 @@ export default function Products() {
               <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
               <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
             </ul>
-            <button>Consult Our Expert Team</button>
+            <button className="comp_btn">Consult Our Expert Team</button>
           </Col>
         </Row>
       </Container>
@@ -124,19 +123,18 @@ export default function Products() {
 
         {/* blog */}
       <section className="products_blogs">
-      <Container>
+       <Container>
         <Heading title="Blogs" subtitle="We share insights and knowledge on technology topics. Our content is valuable, and informative, and helps our readers learn, grow, and succeed." />
         <Row className="gx-4">
           <Col lg={4}>
           <Card  className="blog_card">
-          {/* style={{ width: '18rem' }} */}
            <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
            <Card.Body className="text-center">
             <Card.Title>IGNOU Result</Card.Title>
             <Card.Text>
                We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
             </Card.Text>
-             <button>Visites website</button>
+             <button className="comp_btn" >Visites website</button>
            </Card.Body>
          </Card>
         </Col>
@@ -149,7 +147,7 @@ export default function Products() {
             <Card.Text>
                We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
             </Card.Text>
-             <button>Visites website</button>
+            <button className="comp_btn" >Visites website</button>
            </Card.Body>
          </Card>
         </Col>
@@ -162,7 +160,7 @@ export default function Products() {
             <Card.Text>
                We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
             </Card.Text>
-             <button>Visites website</button>
+            <button className="comp_btn" >Visites website</button>
            </Card.Body>
          </Card>
         </Col>
@@ -172,7 +170,7 @@ export default function Products() {
       
 
       <section className="cabs_booking">
-      <Container>
+       <Container>
         <Heading title="Cab Booking System" subtitle="We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all." />
         <Row>
           <Col lg={3} className="">

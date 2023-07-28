@@ -52,13 +52,7 @@
   margin-bottom: 30px;
 }
 
-/* cabs_booking */
-.cabs_booking{
-  background-color: rgb(14, 133, 151);
-}
-.heading h1{
-  color: #fff;
-}
+
 
 .carousel_caption img{
   width: 100%;
@@ -84,4 +78,43 @@
   font-size: 72px;
   color: #fff;
 
+}
+
+/* products_second */
+.products_second{
+  background-color: #eeee;
+}
+/* Ecomerce_projects */
+.Ecomerce_projects {
+  background-color: #fff;
+}
+.Ecomerce_projects h1{
+  color: blue;
+}
+
+/* product_erm */
+.product_erm{
+  background-color: aliceblue;
+}
+
+/* quest_test */
+.quest_test{
+  background-color: #fff;
+  padding: 120px 0%;
+}
+.quest_test h1{
+  color: rgb(16, 186, 243);
+}
+
+/* products_blogs */
+.products_blogs h1{
+  color: black;
+}
+
+/* cabs_booking */
+.cabs_booking{
+  background-color: rgb(6, 143, 212);
+}
+.heading h1{
+  color: #fff;
 }
