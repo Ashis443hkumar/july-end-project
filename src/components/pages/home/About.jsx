@@ -67,7 +67,7 @@ export default function About() {
 
     </section>
 
-    <section>
+    <section className="home_partner_section">
       <Container>
       <Heading totitle="PARTNERS" title="Leverage our in-depth platform expertise and technology partnership" subtitle=""  />
         <Row>
@@ -92,7 +92,7 @@ export default function About() {
     </section>
 
 
-    <section className="specilalized bg-white mt-5">
+    <section className="specilalized bg-white ">
       <Container>
       {/* <Heading totitle="" title="" subtitle=""  /> */}
       <Heading totitle="WE ARE SPECIALIZED IN" title="We Integrate Technology and Ideas" subtitle="From custom web design to responsive development and SEO optimization, our team of skilled developers has you covered. Contact us today to take your online presence to the next level!"  />

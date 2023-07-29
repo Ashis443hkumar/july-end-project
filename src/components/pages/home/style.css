@@ -119,11 +119,16 @@
 }
 
 /* .home_partner  */
+.home_partner_section{
+  background-color: #fff;
+}
 .home_partner{
   background-color: #ffff;
-  box-shadow: 0px 12px 12px rgba(21,91,81,0.71);
-  padding: 60px 30px;
-  border-radius: 20px;
+  box-shadow: 0px 3px 22px #00000029;
+  padding: 46px 40px;
+  border-radius: 25px;
+  margin-bottom: 60px;
+  height: 330px;
 }
 .home_partner p{
   font-size: 18px;
@@ -140,7 +145,7 @@
 
 /*-------------- specializes ---------- */
 .specilalized{
-  padding: 40px 0;
+  padding: 10px 0;
 }
 .specializes{
   color: #000;
