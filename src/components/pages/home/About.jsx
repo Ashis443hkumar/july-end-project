@@ -223,7 +223,7 @@ export default function About() {
           <h4>TESTIMONIALS</h4>
           <h1>Check what our client <br/> Says about us</h1>
 
-            <p>"Get Estimation and technology suggestion from expert free of cost."</p>
+            <p>“I am really impressed with their work. Looking for a long professional relationship.”</p>
             <div className="testimonial_clinet_info ">
               <img src="https://abym.in/assets/img/post/testimonial/testimonials2.png" alt="" />
               <div className="ddddddd">
@@ -234,7 +234,7 @@ export default function About() {
             </div>
           </Col>
           <Col lg={6}>
-            <img src="https://cdn.pixabay.com/photo/2015/10/31/12/00/meeting-1015313_640.jpg" className="w-100" alt=""/>
+            <img src="https://abym.in/assets/img/post/testimonial/testi-post2.png" className="w-100" alt=""/>
           </Col>
         </Row>
       </Container>

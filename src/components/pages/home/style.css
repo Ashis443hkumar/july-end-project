@@ -154,7 +154,10 @@
   padding: 40px 30px;
   height: 400px;
   width: 100%;
-  transition: ease-in 0.4s;
+
+  z-index: -1;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 
 }
 .speciallizes_img{
@@ -200,6 +203,9 @@
   background-size: cover;
   width: 100%;
   height: 100%;
+
+ 
+   
 }
 .specializes:hover.step_3{
   background: url("https://abym.in/assets/img/services/1.jpg");
@@ -245,7 +251,7 @@
 }
 /* .home_client  */
 .home_client{
-  background-color: #663399;
+  background: linear-gradient(135deg, #2c9876, #bf0fa0);
   color: #fff;
   padding: 60px 0;
   animation: changeBg 10s linear infinite;
@@ -258,7 +264,7 @@
   color: #fff;
 }
 
-@keyframes changeBg{
+/* @keyframes changeBg{
   0%{
     background-color: #663399;
   }
@@ -293,11 +299,12 @@
     background-color: #339996;
   }
   
-}
+} */
 
 /*  testimonial  */
 .home_testimonial{
   padding: 40px 0;
+  background: url("https://abym.in/assets/img/bg/testimonial-bg.svg");
   
 }
 .home_testimonial h1{
