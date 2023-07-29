@@ -35,14 +35,6 @@
   font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
 /* Footer section */
 .bbb{
   display: flex;
@@ -75,6 +67,7 @@
   background-color: #F8F7FC;
   padding: 40px 0%;
   margin-top:70px;
+  background: url("https://abym.in/assets/img/bg/attach-bg.png");
 }
 .footer h4{
   margin-bottom: 30px;
