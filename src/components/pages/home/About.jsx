@@ -97,7 +97,7 @@ export default function About() {
       {/* <Heading totitle="" title="" subtitle=""  /> */}
       <Heading totitle="WE ARE SPECIALIZED IN" title="We Integrate Technology and Ideas" subtitle="From custom web design to responsive development and SEO optimization, our team of skilled developers has you covered. Contact us today to take your online presence to the next level!"  />
 
-        <Row>
+        <Row >
           <Col lg={3}>
           <div className="specializes step_1">
             <div className="speciallizes_img">
@@ -149,7 +149,7 @@ export default function About() {
         </Row>
 
         
-        <Row className="mt-5 pt-4">
+        <Row className="mt-5 pt-4 mb-5">
           <Col lg={3}>
           <div className="specializes step_5">
             <div className="speciallizes_img">

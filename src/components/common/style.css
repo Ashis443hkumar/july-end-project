@@ -48,10 +48,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #663399;
+  background-color: #065885;
   border-radius: 20px;
   padding: 40px 40px;
-  margin-top: -80px;
+  margin-top: -150px;
   color: #fff;
 
 }
@@ -72,22 +72,25 @@
   border-radius: 10px;
 }
 .footer{
-  background-color: aliceblue;
+  background-color: #F8F7FC;
   padding: 40px 0%;
   margin-top:70px;
 }
 .footer h4{
   margin-bottom: 30px;
   padding-top: 60px;
+  color: #065885;
 }
 .footer ul li{
   list-style: none;
   margin-left: -30px;
   padding: 3px 0;
   font-size: 17px;
+  color: #707070;
 }
 .footer_bottom{
-  background-color: #fff;
+  background-color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   color: #000;
   padding-top: 20px;
 }
