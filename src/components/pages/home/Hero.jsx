@@ -23,6 +23,7 @@ export default function Hero() {
         </Carousel.Caption>
       </Carousel.Item>
 
+
       <Carousel.Item className="carousel_caption">
         <img
           className="d-block w-100"
