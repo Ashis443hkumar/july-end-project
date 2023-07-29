@@ -163,10 +163,51 @@
   background-color: #663399;
   color: #fff;
   padding: 60px 0;
+  animation: changeBg 10s linear infinite;
 }
 .home_client img{
   width: 100%;
   object-fit: cover;
+}
+.home_client h4{
+  color: #fff;
+}
+
+@keyframes changeBg{
+  0%{
+    background-color: #663399;
+  }
+  10%{
+    background-color: rgb(168, 168, 19);
+  }
+  20%{
+    background-color: green;
+  }
+  30%{
+    background-color: crimson;
+  }
+  40%{
+    background-color: skyblue;
+  }
+  50%{
+    background-color: #baad16;
+  }
+  60%{
+    background-color: #993392;
+  }
+  70%{
+    background-color: #339968;
+  }
+  80%{
+    background-color: #334c99;
+  }
+  90%{
+    background-color: #339946;
+  }
+  100%{
+    background-color: #339996;
+  }
+  
 }
 
 /*  testimonial  */

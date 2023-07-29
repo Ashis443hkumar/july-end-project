@@ -241,7 +241,7 @@ export default function About() {
       </section>
 
       <section className="home_user_info">
-      <Container>
+       <Container>
         <Row>
           <Col lg={6} className="form_box ">
             <h2>ARE YOU PLANNING?</h2>
@@ -275,22 +275,7 @@ export default function About() {
       </Container>
 
       </section>
-      {/* <div className="mt-4">
-        <Container>
-          <Row  className="mx-auto">
-            <Col lg={11} className="bbb mx-auto">
-            <div className="dc ">
-              <h3>GET A FREE CONSULTATION FROM EXPERTS</h3>
-              <p>Professional service for your software solutions</p>
-            </div>
-            <div className="ddc">
-              <button className="btn_1">Get Status</button>
-              <button className="btn_2">Call Us</button>
-            </div>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
+    
       
 
 
