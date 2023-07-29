@@ -12,10 +12,15 @@
   padding: 0;
   color: #fff;
 }
+.carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+    background-color: crimson;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
 .carousel-indicators [data-bs-target] {
-  width: 12px;
-  height: 12px;
-  border-radius: 20px;
+  border-radius: 7px;
   padding: 0px;
   margin-right: 3px;
   margin-left: 3px;
@@ -23,16 +28,12 @@
   cursor: pointer;
   background-color: crimson;
   /* background-clip: padding-box; */
-  /* opacity: .5; */
+  opacity: .5;
   transition: opacity .6s ease;
 }
 
-
-
-
 .carousel_caption img{
   width: 100%;
-  height: 500px;
   object-fit: cover;
 }
 .caption_caousel{
@@ -52,16 +53,18 @@
   font-size: 72px;
   color: #fff;
 }
+
+
 /* hero_Bottom_content */
 .hero_bottom_content{
-  background-color: cadetblue;
+  background: url("https://abym.in/assets/img/bg/counter-bg.png");
   text-align: center;
   width: 100%;
   height: 22vh;
 }
 .hero_bottom_content h1{
   color: #fff;
-  font-size: 52px;
+  font-size: 55px;
 }
 .hero_bottom_content p{
   color: #fff;
