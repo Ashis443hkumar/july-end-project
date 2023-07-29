@@ -1,19 +1,20 @@
 
 import React from "react";
 import { Container, Row,Col } from "react-bootstrap";
-// import "./style.css";
+import "./style.css"
+
 
 export default function Serve() {
   return (
     <div>
-      <section className="abc bg-secondary">
+      <section className="abc py-5 bg-secondary">
       <Container>
         <Row>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/design-post.png" className="w-100" alt=""/>
           </Col>
-          <Col lg={6}>
-            <h4>WHAT WE OFFER</h4>
+          <Col lg={6} className="pt-5">
+            <h4 className="pt-5">WHAT WE OFFER</h4>
             <h2>OUR APPROACH TO IT SERVICES IN YOUR FIELD</h2>
             <p>Our IT services are customized to fit your unique situation and objectives, so you can enjoy the best outcomes and benefits.</p>
 
@@ -57,10 +58,11 @@ export default function Serve() {
       <section className="abc my-5 py-5">
       <Container>
         <Row>
-        <Col lg={6}>
-            <img src="https://abym.in/assets/img/post/development-post.png" className="w-100" alt=""/>
-        </Col>
-
+          <Col lg={6}>
+            <div className="ccc">
+               <img src="https://abym.in/assets/img/post/development-post.png" className="w-100" alt=""/>
+            </div>
+          </Col>
           <Col lg={6}>
             <h4>DEVELOPMENT</h4>
             <h5>From Idea to Impact, We’ve Got Your Back</h5>
@@ -85,7 +87,7 @@ export default function Serve() {
       </Container>
       </section>
 
-      <section className="serve_banner py-3" style={{background:"aliceblue"}}>
+      <section className="serve_banner py-3" style={{background:"rgb(48, 124, 190)"}}>
       <Container>
         <Row>
           <Col lg={7} className="pt-5">

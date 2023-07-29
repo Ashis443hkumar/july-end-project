@@ -19,7 +19,7 @@ export default function About() {
             <img src="https://cdn.pixabay.com/photo/2015/10/31/12/00/meeting-1015313_640.jpg" className="w-100" alt=""/>
           </Col>
           <Col lg={6}>
-            <h6  className="">WHO WE ARE</h6>
+            <h5 className="">WHO WE ARE</h5>
             <h3>Trusted Partner for</h3>
             <h1>IT Industry</h1>
             <p>AbyM Technology is a certified and award winning IT company. We have been acclaimed for our IT work since 2010. We deliver the best IT solutions in Android, iOS, and web development.</p>
@@ -54,7 +54,7 @@ export default function About() {
       </Container>
     </div>
 
-    <section>
+    <section className="bg-secondary">
      <Container>
       <Heading totitle="PROCESS" title="Our Working Process" subtitle="As a website-building firm, we are constantly attempting to innovate and experiment with new layouts. Modernization is something we like. We can design an excellent website for you that is creative, appealing, informational, and efficient."  />
         <Row className="text-center py-0">
@@ -92,7 +92,7 @@ export default function About() {
     </section>
 
 
-    <section className="specilalized">
+    <section className="specilalized bg-white mt-5">
       <Container>
       {/* <Heading totitle="" title="" subtitle=""  /> */}
       <Heading totitle="WE ARE SPECIALIZED IN" title="We Integrate Technology and Ideas" subtitle="From custom web design to responsive development and SEO optimization, our team of skilled developers has you covered. Contact us today to take your online presence to the next level!"  />

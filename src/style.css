@@ -10,6 +10,11 @@ body{
 li{
   list-style: none;
 }
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0%;
+}
 .comp_btn{
   background-color: rgb(9, 94, 168);
   padding: 7px 30px;

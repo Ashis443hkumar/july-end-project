@@ -8,7 +8,6 @@ import Serve from "./Serve"
 export default function Services() {
   return (
     <>
-    <Serve/>
     <section className="about_dropdown_menu">
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row >
@@ -189,6 +188,8 @@ export default function Services() {
     </Tab.Container>
 
       </section>
+
+      <Serve/>
 
     </>
   );
