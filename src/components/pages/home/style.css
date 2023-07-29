@@ -81,6 +81,42 @@
   font-weight: 600;
 
 }
+/* who we are   */
+.home_trusted_partner h5{
+  font-size: 22px;
+  font-weight: 400;
+
+}
+.home_trusted_partner h3{
+  font-size: 32px;
+}
+.home_trusted_partner h1{
+  font-size: 68px;
+  font-weight: 600;
+}
+
+.home_trusted_partner_decs img{
+  width: 100%;
+  height: 80px;
+  object-fit: contain;
+}
+.home_trusted_partner_decs h4{
+  font-size: 22px;
+
+}
+.home_trusted_partner_decs h4{
+  font-size: 22px;
+
+}
+
+.home_working_process{
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
 
 /* .home_partner  */
 .home_partner{
