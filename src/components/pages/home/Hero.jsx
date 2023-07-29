@@ -15,9 +15,10 @@ export default function Hero() {
           alt="First slide"
         />
         <Carousel.Caption className="caption_caousel">
-          <h5>Empowering 1</h5>
-          <h1>User <br/> Statifaction</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum pharetra augue mollis interdu.</p>
+          <h5>Empowering </h5>
+          <h1>User  Statifaction</h1>
+          <p>Our innovative technology and creative expertise empower us to transform your vision
+						into a tangible solution.</p>
           <br/>
           <button className="comp_btn">Consult Our Team <i class="fa-solid fa-arrow-right"></i></button>
         </Carousel.Caption>
@@ -33,7 +34,8 @@ export default function Hero() {
         <Carousel.Caption className="caption_caousel">
           <h5>Transforming</h5>
           <h1>Coustomer <br/> Engagement</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum pharetra augue mollis interdu.</p>
+          <p>Our innovative technology and creative expertise empower us to transform your vision
+						into a tangible solution.</p>
           <br/>
           <button className="comp_btn">Consult Our Team <i class="fa-solid fa-arrow-right"></i></button>
         </Carousel.Caption>

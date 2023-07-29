@@ -6,21 +6,23 @@
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 0;
-  left: -74%;
+  top: 68%;
+  left: -79%;
   z-index: 2;
   padding: 0;
   color: #fff;
 }
-.carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
+/* .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
     background-color: crimson;
     width: 20px;
     height: 20px;
     border-radius: 50%;
 
-}
+} */
 .carousel-indicators [data-bs-target] {
-  border-radius: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   padding: 0px;
   margin-right: 3px;
   margin-left: 3px;
@@ -37,30 +39,37 @@
   object-fit: cover;
 }
 .caption_caousel{
-  width: 400px;
+  width: 600px;
   height: 400px;
-  top: 30%;
-  left: 20%;
-  transform: translate(-30%, -20%);
+  top: 10%;
+  left: 12%;
+  transform: translate(-10%, -12%);
   margin-bottom: 20px;
   text-align: start;
 }
 .caption_caousel h5{
-  font-size: 22px;
+  font-size: 42px;
   color: #fff;
+  font-weight: 400;
 }
 .caption_caousel h1{
-  font-size: 72px;
-  color: #fff;
+  font-size: 82px;
+  color: aliceblue;
+  font-weight: 500;
+  padding: 0%;
+  margin: 0%;
 }
-
+.caption_caousel p{
+  font-size: 19px;
+}
 
 /* hero_Bottom_content */
 .hero_bottom_content{
   background: url("https://abym.in/assets/img/bg/counter-bg.png");
+  background-position: center;
+  background-size: cover;
   text-align: center;
   width: 100%;
-  height: 22vh;
 }
 .hero_bottom_content h1{
   color: #fff;
@@ -69,6 +78,8 @@
 .hero_bottom_content p{
   color: #fff;
   font-size: 25px;
+  font-weight: 600;
+
 }
 
 /* .home_partner  */
