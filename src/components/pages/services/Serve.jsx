@@ -34,15 +34,15 @@ export default function Serve() {
             <h4>We Bring Your Ideas and Designs to Life</h4>
             <div className="dd mt-4">
               <span>UI/UX Design</span>
-              <span><img  className="px-6" src="https://abym.in/assets/img/icon/explore-black.png" alt=""/></span>
+              <span className="px-5 mx-5"><img  className="px-5" src="https://abym.in/assets/img/icon/explore-black.png" alt=""/></span>
             </div>
             <div className="dd my-4">
               <span>UI/UX Design</span>
-              <span><img  className="px-6" src="https://abym.in/assets/img/icon/explore-black.png" alt=""/></span>
+              <span className="mx-5 px-5"><img  className="px-5" src="https://abym.in/assets/img/icon/explore-black.png" alt=""/></span>
             </div>
             <div className="dd">
               <span>UI/UX Design</span>
-              <span><img  className="px-6" src="https://abym.in/assets/img/icon/explore-black.png" alt=""/></span>
+              <span className="px-5 mx-5"><img  className="px-5" src="https://abym.in/assets/img/icon/explore-black.png" alt=""/></span>
             </div>
             
 
