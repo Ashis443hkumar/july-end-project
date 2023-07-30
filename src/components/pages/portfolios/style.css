@@ -1,9 +1,6 @@
 
-
-.protfolio_hero{
-  background: url("https://abym.in/assets/img/post/5.png");
-  background-size: cover;
-  background-position: center;
+.protfolio_hero1{
+  background-color: #091d3e;
   width: 100%;
   height: 80vh;
   padding-top: 120px;
@@ -12,14 +9,19 @@
   text-align: start;
   color: aliceblue;
 }
+.portfolio_hero_content h4{
+  font-size: 42px;
+}
 .portfolio_hero_content h1{
   line-height: 65px;
+  padding-bottom: 20px;
   font-size: 72px;
 }
 .portfolio_hero_content p{
   color: aliceblue;
   font-weight: 600;
   font-size: 19px;
+  line-height: 40px;
 }
 .protfolio_hero img{
   width: 100%;
@@ -29,4 +31,46 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+.absc_1{
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  padding: 20px;
+}
+.abc_4{
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  padding: 20px;
+
+}
+.abc_6{
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  padding: 20px;
+}
+.abc_8{
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  padding: 20px;
+}
+.abc_10{
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }

@@ -3,13 +3,14 @@ import { Container, Row,Col } from "react-bootstrap";
 import Hero from "./Hero";
 import "./style.css"
 
+
 export default function Portfolio() {
   return (
     <div>
       <Hero/>
       <div className="portfolio_blog">
 
-    <section>
+     <section>
       <Container className="py-5">
         <Row>
           <Col lg={6}>
@@ -31,8 +32,8 @@ export default function Portfolio() {
       </Container>
     </section>
 
-    <section>
-      <Container className="py-5">
+    <section className="absc_1">
+      <Container fluid className="py-5">
         <Row>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/lpl-tab.png" className="w-100" alt=""/>
@@ -77,7 +78,7 @@ export default function Portfolio() {
       </Container>
     </section>
 
-    <section>
+    <section className="abc_4">
       <Container className="py-5">
         <Row>
           <Col lg={6}>
@@ -123,7 +124,7 @@ export default function Portfolio() {
       </Container>
     </section>
 
-    <section>
+    <section className="abc_6">
       <Container className="py-5">
         <Row>
           <Col lg={6}>
@@ -169,7 +170,7 @@ export default function Portfolio() {
       </Container>
     </section>
 
-    <section>
+    <section className="abc_8">
       <Container className="py-5">
         <Row>
           <Col lg={6}>
@@ -216,7 +217,7 @@ export default function Portfolio() {
       </Container>
     </section>
 
-    <section>
+    <section className="abc_10">
       <Container className="py-5">
         <Row>
           <Col lg={6}>
