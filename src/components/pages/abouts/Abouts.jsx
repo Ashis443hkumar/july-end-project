@@ -7,6 +7,7 @@ import "./style.css"
 export default function Abouts() {
   return (
     <>
+    
     <section className="about_dropdown_menu">
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row >
