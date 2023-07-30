@@ -7,10 +7,11 @@ import Card from 'react-bootstrap/Card';
 
 export default function Products() {
   return (
+    
     <div className="products">
       <Hero/>
 
-      <section className="pt-5 b products_second">
+      <section className="pt-5 products_second">
        <Container>
         <Row>
           <Col lg={6}>
@@ -25,7 +26,7 @@ export default function Products() {
       </Container>
       </section>
 
-      <section className="Ecomerce_projects">
+      <section className="Ecomerce_projects ">
        <Container>
         <Heading  title="M-Commerce" subtitle="We value your projects and help you stand out from the crowd. Our partners achieve excellence with our cutting-edge solutions." />
         <Row>
@@ -81,8 +82,8 @@ export default function Products() {
 
 
       <section className="pt-5 product_erm">
-       <Container>
-        <Row>
+       <Container >
+        <Row > 
           <Col lg={6}>
             <h1>Examples and benefits <br/> of social CRM</h1>
             <ul>
@@ -172,7 +173,7 @@ export default function Products() {
       <section className="cabs_booking">
        <Container>
         <Heading title="Cab Booking System" subtitle="We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all." />
-        <Row>
+        <Row className="cab_desc">
           <Col lg={3} className="">
             <h1>Cab Booking Test Cases</h1>
             <p>Customers and drivers rely on our system to book and assign cabs efficiently. Therefore, we need to test every aspect of our system’s functionality thoroughly. For this purpose, we have created a comprehensive set of cab booking test cases that cover various scenarios and outcomes.</p>

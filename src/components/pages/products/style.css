@@ -80,19 +80,33 @@
 
 /* products_second */
 .products_second{
-  background-color: #eeee;
+  background: url("https://abym.in/assets/img/bg/ecommerce-bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  padding: 90px 0%;
 }
+
 /* Ecomerce_projects */
 .Ecomerce_projects {
-  background-color: #fff;
+  background: url("https://abym.in/assets/img/bg/work-flow.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
-.Ecomerce_projects h1{
+.Ecomerce_projects .heading h1{
   color: blue;
 }
 
 /* product_erm */
 .product_erm{
-  background-color: aliceblue;
+  background: url("https://abym.in/assets/img/bg/crm-bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
 }
 
 /* quest_test */
@@ -105,14 +119,30 @@
 }
 
 /* products_blogs */
+.products_blogs {
+  background: url("https://abym.in/assets/img/bg/working-bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
 .products_blogs h1{
   color: black;
 }
 
 /* cabs_booking */
 .cabs_booking{
-  background-color: rgb(6, 143, 212);
+  background: transparent linear-gradient(291deg, #242659 0%, #2887BF 99%, #2887BF 100%) 0% 0% no-repeat padding-box;
+  padding-top: 0px;
+  padding-bottom: 70px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
 }
 .heading h1{
   color: #fff;
+}
+.cab_desc{
+  border: 1px solid #fff;
+  padding: 20px;
 }

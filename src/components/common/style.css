@@ -39,7 +39,7 @@
   background-color: #065885;
   border-radius: 20px;
   padding: 40px 40px;
-  margin-top: -150px;
+  margin-top: -90px;
   color: #fff;
 }
 .btn_1{
@@ -63,8 +63,7 @@
 .footer{
   background-color: #F8F7FC;
   padding: 40px 0%;
-  margin-top:70px;
-  /* background: url("https://abym.in/assets/img/bg/attach-bg.png"); */
+  /* margin-top:70px; */
   background: url("https://abym.in/assets/img/bg/working-bg.png");
   background-size: cover;
   background-position: center;
