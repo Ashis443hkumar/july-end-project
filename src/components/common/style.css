@@ -1,8 +1,8 @@
 .heading{
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .heading h4{
   color: rgb(101, 151, 134);
@@ -61,7 +61,6 @@
 
 /* footer section */
 .footer{
-  background-color: #F8F7FC;
   padding: 40px 0%;
   /* margin-top:70px; */
   background: url("https://abym.in/assets/img/bg/working-bg.png");
@@ -84,7 +83,9 @@
   color: #707070;
 }
 .footer_bottom{
-  background-color: #707070;
+  /* background-color: #707070; */
+  background-color: #F8F7FC;
+
   /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
   color: #000;
   padding-top: 20px;
