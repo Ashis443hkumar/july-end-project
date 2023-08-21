@@ -32,6 +32,21 @@
   height: 300px;
   object-fit: cover;
 }
+/* portfolio_hero_btn */
+.portfolio_hero_btn img{
+}
+.hero_btn_blog{
+  border: 1px solid #091d3e;
+  padding: 7px 20px;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #091d3e;
+  border-radius: 10px;
+  background: none;
+}
+
 
 .absc_1{
   background: url("https://abym.in/assets/img/bg/working-bg.png");

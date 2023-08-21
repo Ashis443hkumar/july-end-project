@@ -18,8 +18,8 @@ export default function Portfolio() {
             {/* <br/> */}
             <p>AbyM Technology is happy to have worked with them on their website, multilingual mobile app, patient database CMS and other IT solutions. We made their online platform easy and safe to use for patients, doctors, and labs all over India. We wanted to make their website more attractive and user-friendly. </p>
             <div className="portfolio_hero_btn">
-              <button className="hero_btn_border">CASE STUDY </button>
-              <button className="mx-4 hero_btn_outline">VISIT WEBSITE </button>
+              <button className="hero_btn_border">CASE STUDY  </button>
+              <button className="mx-4 hero_btn_blog">VISIT WEBSITE </button>
             </div>
           </Col>
           <Col lg={6}>
