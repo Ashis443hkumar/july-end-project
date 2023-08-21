@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -13,10 +13,21 @@ import "./style.css"
 
 
 function Header() {
+
+  const [fix, setFix] = useState(false)
+  
+  function setfixed(){
+    if(window.scrollY >= 202){
+      setFix(true)
+    }else{
+      setFix(false)
+    }
+  }
+ 
+  window.addEventListener("scroll", setfixed)
   return (
      <>
-     <section className="">
-     <Navbar expand="lg" className="header" >
+     <Navbar expand="lg" className={fix ? "header fixed": "header"} >
       <Container>
         <Navbar.Brand href="#">Abym technology</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -37,7 +48,6 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-     </section>
      </>
   );
 }
