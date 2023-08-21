@@ -24,13 +24,13 @@ export default function About() {
             <h1>IT Industry</h1>
             <p>AbyM Technology is a certified and award winning IT company. We have been acclaimed for our IT work since 2010. We deliver the best IT solutions in Android, iOS, and web development.</p>
             <article>
-              <div className="mt-5 pb-5 home_trusted_partner_decs">
+              <div className="mt-1 pb-4 home_trusted_partner_decs">
               <Row>
                 <Col lg={2}>
                   <img src="https://abym.in/assets/img/icon/certificate-icon.png" alt=""/>
                 </Col>
                 <Col lg={10}>
-                  <h4>Certified Company</h4>
+                  <h5>Certified Company</h5>
                   <p>Certified IT company with proven quality, security, speed. Best IT solutions for your business.</p>
                 </Col>
               </Row>
@@ -39,7 +39,7 @@ export default function About() {
                   <img src="https://abym.in/assets/img/icon/award-icon.png" alt=""/>
                 </Col>
                 <Col lg={10}>
-                  <h4>Award Winning</h4>
+                  <h5>Award Winning</h5>
                   <p>Certified IT company with proven quality, security, speed. Best IT solutions for your business.</p>
                 </Col>
               </Row>
@@ -54,6 +54,7 @@ export default function About() {
       </Container>
     </div>
 
+     {/* home_working_process */}
     <section className="home_working_process">
      <Container>
       <Heading totitle="PROCESS" title="Our Working Process" subtitle="As a website-building firm, we are constantly attempting to innovate and experiment with new layouts. Modernization is something we like. We can design an excellent website for you that is creative, appealing, informational, and efficient."  />
@@ -64,9 +65,9 @@ export default function About() {
           </Col>
         </Row>
       </Container>
-
     </section>
 
+    {/* home_partner_section */}
     <section className="home_partner_section">
       <Container>
       <Heading totitle="PARTNERS" title="Leverage our in-depth platform expertise and technology partnership" subtitle=""  />
