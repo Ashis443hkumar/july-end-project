@@ -20,7 +20,7 @@ export default function Hero() {
           <p>Our innovative technology and creative expertise empower us to transform your vision
 						into a tangible solution.</p>
           <br/>
-          <button className="comp_btn">Consult Our Team <i class="fa-solid fa-arrow-right"></i></button>
+          <button className="hero_btn_outline">Consult Our Team <i class="fa-solid fa-arrow-right"></i></button>
         </Carousel.Caption>
       </Carousel.Item>
 

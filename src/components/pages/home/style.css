@@ -12,13 +12,7 @@
   padding: 0;
   color: #fff;
 }
-/* .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
-    background-color: crimson;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
 
-} */
 .carousel-indicators [data-bs-target] {
   width: 20px;
   height: 20px;
@@ -102,13 +96,12 @@
 }
 .home_trusted_partner_decs h4{
   font-size: 22px;
-
 }
 .home_trusted_partner_decs h4{
   font-size: 22px;
-
 }
 
+/* .home_working_process  */
 .home_working_process{
   background: url("https://abym.in/assets/img/bg/working-bg.png");
   background-size: cover;

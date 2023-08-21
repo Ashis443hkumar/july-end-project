@@ -44,8 +44,8 @@ export default function About() {
                 </Col>
               </Row>
               </div>
-              <Button className="bg-success ">Get Start</Button>
-              <Button className="mx-4">Know More</Button>
+              <Button className="hero_btn_border ">GET START</Button>
+              <Button className="mx-4 hero_btn_outline">Know More</Button>
 
             </article>
           </Col>

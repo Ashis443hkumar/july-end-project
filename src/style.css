@@ -10,7 +10,6 @@ body{
   font-weight: 400;
   line-height: 28px;
   overflow-x: hidden;
-  /* background-color: var(--white); */
   color: #666666;
   background-color: aliceblue;
 }
@@ -28,8 +27,32 @@ li{
   color: #fff;
   border: none;
   outline: none;
-
 }
 color{
   color: #091d3e;
+}
+.hero_btn_border{
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #091d3e;
+}
+.hero_btn_border:hover{
+  background-color: blue;
+}
+
+.hero_btn_outline{
+  padding: 10px 20px;
+  outline: none;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 300;
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: none;
 }
