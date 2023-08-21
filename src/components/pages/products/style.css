@@ -77,6 +77,10 @@
   height: 80vh;
   padding: 90px 0%;
 }
+.product_ecom h1{
+  color: #242659;
+
+}
 
 /* Ecomerce_projects */
 .Ecomerce_projects {
@@ -87,7 +91,21 @@
   height: 100%;
 }
 .Ecomerce_projects .heading h1{
-  color: blue;
+  color:#091d3e ;
+}
+.ecommerce_head img{
+  width: 70px;
+  height: 70px;
+}
+.ecommerce_head h3{
+  font-size: 21px;
+}
+.ecom_bg_img{
+  padding: 40px 10px;
+}
+.ecom_bg_img img{
+  width: 200px;
+  object-fit: cover;
 }
 
 /* product_erm */
@@ -109,6 +127,7 @@
 }
 .benifit_crm ul li i{
   margin-top: 10px;
+  font-size: 23px;
 }
 
 

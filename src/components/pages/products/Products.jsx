@@ -3,6 +3,10 @@ import { Container, Row,Col } from "react-bootstrap";
 import Heading from "../../common/Heading";
 import Hero from "./Hero";
 import "./style.css"
+
+// import {blogData} from "../../Sdata"
+import {blogData} from "../../../Sdata"
+
 import Card from 'react-bootstrap/Card';
 
 export default function Products() {
@@ -10,14 +14,17 @@ export default function Products() {
     
     <div className="products">
       <Hero/>
+      <blogData/>
 
       <section className="pt-5 products_second">
        <Container>
         <Row>
           <Col lg={6}>
-            <h1>E-Commerce</h1>
+           <div className="pt-5 product_ecom">
+           <h1>E-Commerce</h1>
             <p className="py-4">Launch your online store on web, Android, and iOS platforms. Make your products accessible to your customers with just a few taps. We have the expertise to create.</p>
-            <button className="comp_btn">CONSULT OUR EXPERT TEAM </button>
+            <button className="hero_btn_border">CONSULT OUR EXPERT TEAM <img src="https://abym.in/assets/img/icon/explore-white.svg" alt=""/> </button>
+           </div>
           </Col>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/ecomerce-desk.png" className="w-100" alt=""/>
@@ -29,7 +36,7 @@ export default function Products() {
       <section className="Ecomerce_projects ">
        <Container>
         <Heading  title="M-Commerce" subtitle="We value your projects and help you stand out from the crowd. Our partners achieve excellence with our cutting-edge solutions." />
-        <Row>
+        <Row className="mt-5">
           <Col lg={4}>
            <div className="ecommerce_head">
             <img src="https://abym.in/assets/img/icon/work-life-ico1.png" alt="" />
@@ -93,15 +100,15 @@ export default function Products() {
                <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
                </li>
                <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
-               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               <p className="mx-4">Get real-time feedback and market data by tracking your brand’s online conversations.</p>
                </li>
               
                <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
-               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               <p className="mx-4">Monitor your brand’s online reputation and respond to customer queries and complaints promptly.</p>
                </li>
               
                <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
-               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               <p className="mx-4">Discover new opportunities and trends by engaging with your social media followers and influencers.</p>
                </li>
               
                <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
@@ -157,44 +164,22 @@ export default function Products() {
        <Container>
         <Heading title="Blog" subtitle="We share insights and knowledge on technology topics. Our content is valuable, and informative, and helps our readers learn, grow, and succeed." />
         <Row className="gx-4">
-          <Col lg={4}>
-          <Card  className="blog_card">
-           <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
-           <Card.Body className="text-center">
-            <Card.Title>IGNOU Result</Card.Title>
-            <Card.Text>
-               We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
-            </Card.Text>
-             <button className="comp_btn" >Visites website</button>
-           </Card.Body>
-         </Card>
-        </Col>
-        <Col lg={4}>
-          <Card  className="blog_card">
-          {/* style={{ width: '18rem' }} */}
-           <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
-           <Card.Body className="text-center">
-            <Card.Title>IGNOU Result</Card.Title>
-            <Card.Text>
-               We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
-            </Card.Text>
-            <button className="comp_btn" >Visites website</button>
-           </Card.Body>
-         </Card>
-        </Col>
-        <Col lg={4}>
-          <Card  className="blog_card">
-          {/* style={{ width: '18rem' }} */}
-           <Card.Img variant="top" src="https://abym.in/assets/img/post/blog/blog2.png" />
-           <Card.Body className="text-center">
-            <Card.Title>IGNOU Result</Card.Title>
-            <Card.Text>
-               We create a user-friendly app that lets you book cabs in a few clicks. Using cutting-edge technology, we ensure a smooth and secure ride experience. Whether you need a quick trip or a long journey, our app has it all
-            </Card.Text>
-            <button className="comp_btn" >Visites website</button>
-           </Card.Body>
-         </Card>
-        </Col>
+          {
+            blogData.map((value, index) =>(
+             <Col lg={4}>
+              <Card  className="blog_card">
+               <Card.Img variant="top" src={value.img} />
+               <Card.Body className="text-center">
+                <Card.Title>IGNOU Result</Card.Title>
+                <Card.Text>
+                   {value.subtitle}
+                </Card.Text>
+                 <button className="comp_btn" >Visites website</button>
+               </Card.Body>
+             </Card>
+            </Col>
+            ))
+          }
         </Row>
       </Container>
       </section>

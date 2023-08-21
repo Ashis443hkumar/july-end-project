@@ -36,13 +36,14 @@ color{
   outline: none;
   border: none;
   text-align: center;
-  font-size: 17px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 200;
   color: #fff;
   background-color: #091d3e;
+  border-radius: 10px;
 }
 .hero_btn_border:hover{
-  background-color: blue;
+  background-color: rgba(0, 213, 255, 0.362);
 }
 
 .hero_btn_outline{
