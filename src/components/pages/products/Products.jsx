@@ -81,18 +81,34 @@ export default function Products() {
       </section>
 
 
-      <section className="pt-5 product_erm">
+      {/* Examples and benefits of social CRM */}
+      <section className=" product_erm">
        <Container >
         <Row > 
           <Col lg={6}>
             <h1>Examples and benefits <br/> of social CRM</h1>
+            <div className="benifit_crm mt-4">
             <ul>
-              <li><i class="fa-solid fa-check"></i> Get real-time feedback and market data by tracking your brand’s online conversations.</li>
-              <li><i class="fa-solid fa-check"></i> Share your ideas for new or improved products on social media and influence our innovation process.</li>
-              <li><i class="fa-solid fa-check"></i> Monitor your brand’s online reputation and respond to customer queries and complaints promptly.</li>
-
-              <li><i class="fa-solid fa-check"></i> Discover new opportunities and trends by engaging with your social media followers and influencers.</li>
+              <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
+               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               </li>
+               <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
+               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               </li>
+              
+               <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
+               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               </li>
+              
+               <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
+               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               </li>
+              
+               <li className="list_benifit d-flex justify-content-between align-items-start "><i class="fa-solid fa-check"></i>
+               <p className="mx-4">Share your ideas for new or improved products on social media and influence our innovation process.</p>
+               </li>
             </ul>
+            </div>
           </Col>
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/crm.png" className="w-100" alt=""/>
@@ -110,22 +126,36 @@ export default function Products() {
           <Col lg={6} className="p-5 pt-0 ">
             <h1>Quiz and Test</h1>
             <p>We create engaging and interactive quiz and test apps for various domains and purposes. Whether you need an app for education, entertainment, or evaluation, we have the right solution for you. Some of the features of our quiz and test apps are:</p>
-
+            <div className="quest_lest">
             <ul>
-              <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
-              <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
-              <li><img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> Customizable design and content to suit your brand and audience</li>
+              <li className="d-flex justify-content-between align-items-start ">
+               <img src="https://abym.in/assets/img/icon/quiz-test1.png" alt=""/> 
+               <p>Customizable design and content to suit your brand and audience</p>
+              </li>
+              <li className="d-flex justify-content-between align-items-start ">
+               <img src="https://abym.in/assets/img/icon/quiz-test2.png" alt=""/> 
+               <p>Gamification elements such as points, badges, leaderboards, and rewards to motivate users</p>
+              </li>
+              <li className="d-flex justify-content-between align-items-start ">
+               <img src="https://abym.in/assets/img/icon/quiz-test3.png" alt=""/> 
+               <p>Analytics and feedback tools to measure performance and improve learning outcomes</p>
+              </li>
+              <li className="d-flex justify-content-between align-items-start ">
+               <img src="https://abym.in/assets/img/icon/quiz-test4.png" alt=""/> 
+               <p>Cloud-based technology and cross-platform compatibility to ensure accessibility and security</p>
+              </li>
             </ul>
-            <button className="comp_btn">Consult Our Expert Team</button>
+            </div>
+            <button className="hero_btn_border">Consult Our Expert Team <img src="https://abym.in/assets/img/icon/explore-white.svg" alt=""/></button>
           </Col>
         </Row>
       </Container>
       </section>
 
-        {/* blog */}
+        {/* blog pages */}
       <section className="products_blogs">
        <Container>
-        <Heading title="Blogs" subtitle="We share insights and knowledge on technology topics. Our content is valuable, and informative, and helps our readers learn, grow, and succeed." />
+        <Heading title="Blog" subtitle="We share insights and knowledge on technology topics. Our content is valuable, and informative, and helps our readers learn, grow, and succeed." />
         <Row className="gx-4">
           <Col lg={4}>
           <Card  className="blog_card">
