@@ -19,7 +19,7 @@ export default function About() {
             <img src="https://abym.in/assets/img/post/1.png" className="w-100" alt=""/>
           </Col>
           <Col lg={6}>
-            <h5 className="">WHO WE ARE</h5>
+            <h5 className="who_are">WHO WE ARE</h5>
             <h3>Trusted Partner for</h3>
             <h1>IT Industry</h1>
             <p>AbyM Technology is a certified and award winning IT company. We have been acclaimed for our IT work since 2010. We deliver the best IT solutions in Android, iOS, and web development.</p>

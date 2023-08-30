@@ -23,7 +23,6 @@
   text-indent: -999px;
   cursor: pointer;
   background-color: crimson;
-  /* background-clip: padding-box; */
   opacity: .5;
   transition: opacity .6s ease;
 }
@@ -76,10 +75,20 @@
 
 }
 /* who we are   */
-.home_trusted_partner h5{
+.home_trusted_partner h5.who_are{
   font-size: 22px;
   font-weight: 400;
+  position: relative;
 
+}
+.home_trusted_partner .who_are::after{
+  content: "";
+  position: absolute;
+  background-color: crimson;
+  width: 40px;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
 }
 .home_trusted_partner h3{
   font-size: 32px;
@@ -277,6 +286,21 @@
 .testimonial_clinet_info h2{
   font-size: 21px;
 }
+.home_testimonial h4{
+  padding: 0%;
+  position: relative;
+
+}
+.home_testimonial h4::after{
+  content: "";
+  position: absolute;
+  background-color: crimson;
+  width: 60px;
+  height: 2px;
+  left: 0;
+  bottom: -8px;
+}
+
 .client_btn{
   width: 40px;
   height: 40px;

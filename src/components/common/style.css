@@ -8,6 +8,20 @@
   color: rgb(101, 151, 134);
   font-weight: 400;
   font-size: 25px;
+  position: relative;
+}
+
+.heading h4::after{
+  content: "";
+  position: absolute;
+  background-color: crimson;
+  width: 60px;
+  margin: 10px auto;
+  text-align: center;
+  height: 2px;
+  left: 0;
+  right: 0%;
+  bottom: -20px;
 }
 .heading h1{
   width: 60%;
@@ -39,16 +53,14 @@
   position: relative;
 }
 .navigation a::after{
-  content: "";
+   content: "";
    position: absolute;
    background-color: #091d3e;
    width: 40%;
    height: 2px;
    left: 0;
    bottom: -5px;
-  transition: 0.5s;
-
-
+   transition: 0.5s;
 }
 .navigation a:hover::after{
   width: 100%;
