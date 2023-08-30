@@ -43,7 +43,7 @@ function Header() {
             <NavLink to="/portfolio">Portfolio</NavLink>
             <NavLink to="/products">Products</NavLink>
           </Nav>
-          <Button className="px-5 py-2">Contact</Button>
+          <Button className="header_btn">Contact Us</Button>
       
         </Navbar.Collapse>
       </Container>
