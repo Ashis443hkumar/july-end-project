@@ -63,15 +63,15 @@ export default function Hero() {
     <div className="hero_bottom_content">
       <Container>
         <Row>
-          <Col lg={4}>
+          <Col lg={4} md={4} sm={6} xs={12}>
             <h1>500+</h1>
             <p>Mobile Apps</p>
           </Col>
-          <Col lg={4}>
+          <Col lg={4} md={4} sm={6} xs={12}>
             <h1>1000+</h1>
             <p>Websites</p>
           </Col>
-          <Col lg={4}>
+          <Col lg={4} md={4} sm={6} xs={12}>
             <h1>100%</h1>
             <p>Happy Clients</p>
           </Col>

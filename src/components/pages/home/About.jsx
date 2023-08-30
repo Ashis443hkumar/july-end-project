@@ -18,12 +18,12 @@ export default function About() {
           <Col lg={6}>
             <img src="https://abym.in/assets/img/post/1.png" className="w-100" alt=""/>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} className="botton_space">
             <h5 className="who_are">WHO WE ARE</h5>
             <h3>Trusted Partner for</h3>
             <h1>IT Industry</h1>
             <p>AbyM Technology is a certified and award winning IT company. We have been acclaimed for our IT work since 2010. We deliver the best IT solutions in Android, iOS, and web development.</p>
-            <article>
+            <article >
               <div className="mt-1 pb-4 home_trusted_partner_decs">
               <Row>
                 <Col lg={2}>

@@ -60,3 +60,10 @@ color{
   border-radius: 10px;
   background: none;
 }
+
+@media screen and (max-width: 912px) and (min-width: 600px) {
+  .botton_space{
+  
+    margin-top: 90px;
+  }
+}
