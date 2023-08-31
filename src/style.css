@@ -27,8 +27,21 @@ li{
   border: none;
   outline: none;
 }
+:root {
+  --blue: #065885;
+  --white: #ffffff;
+  --pink: #E30047;
+  --bg-footer:#F8F7FC;
+  --footer-text:#707070;
+  --font-default:'Poppins', sans-serif;
+}
+
 color{
   color: #091d3e;
+  color: #072b3e;
+  color: #2bc1e8;
+  color:  #072B3E;
+  color: #065885;
   background-color: ;
 }
 

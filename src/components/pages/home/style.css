@@ -27,6 +27,7 @@
   transition: opacity .6s ease;
 }
 
+
 .carousel_caption img{
   width: 100%;
   object-fit: cover;
@@ -55,6 +56,8 @@
 .caption_caousel p{
   font-size: 19px;
 }
+
+
 
 /* hero_Bottom_content */
 .hero_bottom_content{

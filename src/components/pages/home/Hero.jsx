@@ -5,6 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Hero() {
 
+  
   return (
     <div>
       <Carousel data-bs-theme="dark">
