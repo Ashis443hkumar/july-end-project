@@ -179,6 +179,10 @@ export default function Services() {
                <h5>User Experience Design</h5>
                <p>Discovery & Application AssessmentBusiness Rules MiningRe-Platform ServicesMigration Services</p>
              </Col>
+             <div className="d-flex justify-content-start align-items-center mt-4">
+               <h4 className="outline-none">Know more about </h4>
+               <button className="hero_btn_border mx-3 px-5">Devops</button>
+             </div>
             </Row>  
             </Tab.Pane>
 
