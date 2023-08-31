@@ -4,9 +4,14 @@
   text-align: center;
   margin-top: -20px;
 }
+.side_content_text img{
+  width: 40px;
+  height: 40px;
+}
 .side_content_text h5{
-  font-size: 17px;
-  color: red;
+  font-size: 18px;
+  color: #091d3e;
+  font-weight: 500;
 }
 .side_content_text p{
   font-size: 15px;
